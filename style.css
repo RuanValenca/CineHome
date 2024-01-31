@@ -1,0 +1,932 @@
+@font-face {
+    font-family: 'Simpsons';
+    src: url('FONTS/Simpsonfont\ DEMO.otf') format('opentype');
+}
+
+@font-face{
+    font-family: 'Ahinto';
+    src: url('FONTS/AHintofSass.ttf') format('opentype');
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #252525;
+}
+
+body {
+    border: solid 6px rgb(61, 61, 61);
+    background-color: #FFEA5F;
+    border-radius: 20px;
+}
+
+#homerlado {
+    transition: all 0.5s ease;
+    right: -20px;
+    position: fixed;
+    float: left;
+    transform: rotate(-45deg);
+    width: 50px;
+}
+
+#pipoca {
+    position: relative;
+    bottom: 70px;
+    right: 90px;
+    float: right;
+    width: 150px;
+}
+
+#homer {
+    position: relative;
+    bottom: 150px;
+    right: 80px;
+    float: right;
+    width: 350px;
+}
+
+header {
+    left: 15px;
+    position: relative;
+    border-radius: 20px;
+    width: 99%;
+    height: 450px;
+    color: rgb(39, 39, 39);
+
+}
+
+header h1 {
+    text-align: justify;
+    font-family: 'Simpsons';
+    font-size: 75px;
+    margin: 80px 50px 30px 50px;
+}
+
+header p {
+    text-align: justify;
+    font-family: "Ahinto";
+    margin: 40px 10px 15px 50px;
+    width: 500px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#barrahorizontal {
+    padding: 0px;
+    margin: 50px;
+    display: flex;
+    list-style: none;
+}
+
+#barrahorizontal li {
+    margin: 0px 50px 0px 0px;
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #252525;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a:hover {
+    background-image: linear-gradient(130deg, yellow, orange);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.btntop {
+    margin: 0px 40px 0px 0px;
+    padding: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, rgb(255, 217, 49), rgb(255, 234, 143));
+    font-size: 15px;
+    font-family: "Ahinto";
+    border-radius: 5px;
+    border: solid 2px #252525;
+}
+
+.btntop:hover {
+    background-image: linear-gradient(45deg, rgb(51, 51, 51), rgb(20, 20, 20));
+    border: solid 2px #FFEA5F;
+}
+
+main h2 {
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Simpsons';
+}
+
+#plataformas {
+    margin-top: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#plataformas img:hover {
+    filter: brightness(1.1);
+}
+
+.porta {
+    margin: 0px 45px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+    filter: brightness(0.8);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.562);
+}
+
+.porta:hover {
+    scale: 1.03;
+}
+
+#gêneros {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topbar {
+    height: 50px;
+    display: block;
+}
+
+.titlegen {
+    font-family: "Ahinto";
+    top: 30px;
+    position: relative;
+    text-align: end;
+    right: 100px;
+}
+
+#titlegen2 {
+    right: 60px;
+    position: relative;
+}
+
+#titlegen3 {
+    right: 70px;
+    position: relative;
+}
+
+#titlegen4 {
+    top: 60px;
+    right: 15px;
+    position: relative;
+}
+
+#titlegen5 {
+    right: 70px;
+    position: relative;
+}
+
+#titlegen6 {
+    right: 85px;
+    position: relative;
+}
+
+#gêneros h3 {
+    font-size: 21px;
+    cursor: pointer;
+}
+
+#gêneros h3:hover {
+    color: #ffffff;
+}
+
+#subtitle2 {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Simpsons';
+}
+
+#conteudo {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+#lista-h3 {
+    font-family: "Ahinto";
+    font-size: 17px;
+}
+
+#gêneros img {
+    width: 450px;
+}
+
+#filme1,
+#filme2,
+#filme3 {
+    vertical-align: top;
+    left: 250px;
+    position: relative;
+    width: 150px;
+    height: 200px;
+    margin: 0 50px;
+    background-color: rgb(255, 221, 32);
+    border-radius: 20px;
+    display: inline-block;
+}
+
+#bottom-page {
+    font-weight: 600;
+    font-family: "Ahinto";
+    margin-top: 50px;
+    text-align: center;
+}
+
+#donutbox {
+    height: 400px;
+}
+
+#donut {
+    width: 150px;
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+
+#donut2 {
+    float: right;
+    width: 200px;
+    position: relative;
+    right: 100px;
+    top: 50px;
+}
+
+#donut3 {
+    float: right;
+    width: 150px;
+    position: relative;
+    left: -200px;
+    top: 200px;
+
+}
+
+#donut4 {
+    rotate: 120deg;
+    width: 200px;
+    position: relative;
+    left: 190px;
+    top: 60px;
+}
+
+.rotate {
+    animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+.titlepp {
+    font-family: "Ahinto";
+    bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.closepp {
+    color: white;
+}
+
+.closepp:hover {
+    color: orange
+}
+
+.linkfilme {
+    border-radius: 20px;
+    height: 160px;
+    width: 160px;
+}
+
+.grid-item {
+    border: solid 4px rgba(15, 0, 24, 0.384);
+    margin-top: 10px;
+    justify-items: stretch;
+    border-radius: 20px;
+    height: 190px;
+    width: 190px;
+    box-shadow: 4px 4px 4px rgba(22, 13, 24, 0.425)
+}
+
+.hidden {
+    display: none;
+}
+
+.gridcontainer {
+    bottom: 80px;
+    position: relative;
+    height: 420px;
+    width: 700px;
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-item img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#popupH {
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: solid 5px #252525;
+    width: 950px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(25deg, #381955, rgb(26, 9, 87));
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(57, 51, 58);
+    z-index: 1000;
+}
+
+#close-popupH {
+    bottom: 290px;
+    position: relative;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Simpsons';
+    border: none;
+    background: none;
+    color: white;
+}
+
+#hbopp {
+    right: 20px;
+    border-radius: 20px;
+    height: 180px;
+    width: 180px;
+    box-shadow: 4px 4px 4px rgb(28, 3, 51);
+    top: 50px;
+    position: relative;
+}
+
+
+#second-popup {
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: solid 5px #252525;
+    width: 950px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(25deg, #852424, rgb(124, 29, 29));
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(255, 3, 3);
+    z-index: 1000;
+}
+
+#netflixpp {
+    right: 20px;
+    border-radius: 20px;
+    height: 180px;
+    width: 180px;
+    box-shadow: 4px 4px 4px rgb(85, 0, 0);
+    top: 50px;
+    position: relative;
+}
+
+#close-popup2 {
+    bottom: 290px;
+    position: relative;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Simpsons';
+    border: none;
+    background: none;
+    color: white;
+}
+
+#third-popup {
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: solid 5px #252525;
+    width: 950px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(25deg, rgb(62, 68, 151), #2d629e);
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(33, 65, 116);
+    z-index: 1000;
+}
+
+
+#primepp {
+    right: 20px;
+    border-radius: 20px;
+    height: 180px;
+    width: 180px;
+    box-shadow: 4px 4px 4px rgb(13, 49, 121);
+    top: 50px;
+    position: relative;
+}
+
+#close-popup3 {
+    bottom: 290px;
+    position: relative;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Simpsons';
+    border: none;
+    background: none;
+    color: white;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+
+#popupC1,
+#popupC2,
+#popupC3,
+#popupC4,
+#popupC5,
+#popupC6 {
+    position: relative;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: solid 5px #131010;
+    width: 950px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(25deg, #252525, #0e0d0d);
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(3, 3, 3);
+    z-index: 1000;
+}
+
+#close-popupC1,
+#close-popupC2,
+#close-popupC3,
+#close-popupC4,
+#close-popupC5,
+#close-popupC6 {
+    left: 910px;
+    bottom: 100px;
+    position: relative;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Simpsons';
+    border: none;
+    background: none;
+}
+
+#close-popupC1S,
+#close-popupC2S,
+#close-popupC3S,
+#close-popupC4S,
+#close-popupC5S,
+#close-popupC6S {
+    left: 910px;
+    bottom: 100px;
+    position: relative;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Simpsons';
+    border: none;
+    background: none;
+}
+
+.options {
+    bottom: 75px;
+    position: relative;
+    width: 650px;
+    margin-bottom: 0px;
+}
+
+.option1:hover,
+.option2:hover,
+.option3:hover,
+.option4:hover {
+    height: 130px;
+    z-index: 1;
+    color: #ffffffd8;
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+}
+
+.option1,
+.option2,
+.option3,
+.option4 {
+    filter: drop-shadow(2px 2px 12px black);
+    transition: all 0.3s ease-in-out;
+    background-clip: content-box;
+    color: transparent;
+    text-indent: 10px;
+    margin-top: 10px;
+    font-size: 65px;
+    font-family: "Ahinto";
+    position: relative;
+    height: 110px;
+    width: 650px;
+    border: 3px solid rgb(48, 48, 48);
+    border-radius: 10px;
+}
+
+#açao1f {
+    background-size: cover;
+    background-position: 0% 20%;
+    background-image: url(img/regreso.webp);
+}
+
+#açao1f:hover {
+    outline: 0.5px solid rgb(178, 191, 194);
+}
+
+#açao2f {
+    background-size: cover;
+    background-position: 55% 20%;
+    background-image: url(img/a-mulher-rei-poster-nacional-2107.jpg);
+}
+
+#açao2f:hover {
+    outline: 0.5px solid rgb(209, 127, 33);
+}
+
+#açao3f {
+    background-size: cover;
+    background-position: 0px 25%;
+    background-image: url(img/maverick.jpg);
+}
+
+#açao2f:hover {
+    outline: 0.5px solid rgb(255, 251, 213);
+}
+
+#açao4f {
+    background-size: cover;
+    background-position: 10% 38%;
+    background-image: url(img/Oppenheimer.jpg);
+}
+
+#açao1s {
+    background-size: cover;
+    background-position: 80% 10%;
+    background-image: url(img/the_boys_4a_.png);
+}
+
+#açao2s {
+    background-size: cover;
+    background-position: 10% 30%;
+    background-image: url(img/narcos.jpg);
+}
+
+#açao3s {
+    background-size: cover;
+    background-position: 10% 40%;
+    background-image: url(img/casadepapel.webp);
+}
+
+#açao4s {
+    background-size: 120%;
+    background-position: 0% 5%;
+    background-image: url(img/myname.jpg);
+}
+
+#aventura1f {
+    background-size: cover;
+    background-position: 0% 25%;
+    background-image: url(img/dinosauro.jpg);
+}
+
+#aventura2f {
+    background-size: cover;
+    background-position: 0% 30%;
+    background-image: url(img/uncharted.jpg);
+}
+
+#aventura3f {
+    background-size: cover;
+    background-position: 0% 80%;
+    background-image: url(img/jumanji.jpg);
+}
+
+#aventura4f {
+    font-size: 45px;
+    background-size: cover;
+    background-position: 0% 70%;
+    background-image: url(img/Up.jpg);
+}
+
+#aventura1s {
+    background-size: cover;
+    background-position: 50% 25%;
+    background-image: url(img/sweet\ tooth.webp);
+}
+
+#aventura2s {
+    background-size: 103%;
+    background-position: 20% 10%;
+    background-image: url(img/themandalorian.jpg);
+}
+
+#aventura3s {
+    background-size: cover;
+    background-position: 0% 60%;
+    background-image: url(img/Doctor\ Who.jpg);
+}
+
+#aventura4s {
+    background-size: cover;
+    background-position: 0% 20%;
+    background-image: url(img/the100.jpg);
+}
+
+#aventura4f {
+    font-size: 45px;
+    background-size: cover;
+    background-position: 0% 70%;
+    background-image: url(img/Up.jpg);
+}
+
+#comedia1f {
+    background-size: cover;
+    background-position: 50% 35%;
+    background-image: url(img/Nemo.webp);
+}
+
+#comedia2f {
+    background-size: cover;
+    background-position: 20% 10%;
+    background-image: url(img/MeuMalvadoFavorito.webp);
+}
+
+#comedia3f {
+    background-size: cover;
+    background-position: 0% 40%;
+    background-image: url(img/ToyStory.jpg);
+}
+
+#comedia4f {
+    background-size: 83%;
+    background-position: 70% 50%;
+    background-image: url(img/DeadPool.jpg);
+}
+
+#comedia1s {
+    background-size: cover;
+    background-position: 50% 15%;
+    background-image: url(img/Friends.jpg);
+}
+
+#comedia2s {
+    background-size: cover;
+    background-position: 20% 50%;
+    background-image: url(img/ModernFamily.jpg);
+}
+
+#comedia3s {
+    background-size: cover;
+    background-position: 0% 15%;
+    background-image: url(img/Eu\ nunca.webp);
+}
+
+#comedia4s {
+    font-size: 60px;
+    background-size: cover;
+    background-position: 70% 20%;
+    background-image: url(img/todo\ mundo\ odeia\ o\ chris.jpg);
+}
+
+#ficcao1f {
+    background-size: cover;
+    background-position: 50% 45%;
+    background-image: url(img/Duna.jpg);
+}
+
+#ficcao2f {
+    background-size: cover;
+    background-position: 20% 25%;
+    background-image: url(img/FreeGuy.jpg);
+}
+
+#ficcao3f {
+    background-size: cover;
+    background-position: 0% 40%;
+    background-image: url(img/Projeto\ Almanaque.jpg);
+}
+
+#ficcao4f {
+    background-size: 90%;
+    background-position: 50% 40%;
+    background-image: url(img/star\ wars.jpg);
+}
+
+#ficcao1s {
+    background-size: cover;
+    background-position: 50% 70%;
+    background-image: url(img/ruptura.jpeg);
+}
+
+#ficcao2s {
+    background-size: cover;
+    background-position: 40% 20%;
+    background-image: url(img/Black\ Mirror.jpg);
+}
+
+#ficcao3s {
+    background-size: cover;
+    background-position: 0% 70%;
+    background-image: url(img/stranger\ things.jpg);
+}
+
+#ficcao4s {
+    background-size: cover;
+    background-position: 50% 45%;
+    background-image: url(img/Dark.jpg);
+}
+
+#romance1f {
+    font-size: 62px;
+    background-size: cover;
+    background-position: 50% 30%;
+    background-image: url(img/simplesmente-acontece_t76488_6sa2XYG.webp);
+}
+
+#romance2f {
+    background-size: cover;
+    background-position: 40% 35%;
+    background-image: url(img/Perdida.jpg);
+}
+
+#romance3f {
+    background-size: cover;
+    background-position: 0% 15%;
+    background-image: url(img/OrgulhoEPreconceito.jpg);
+}
+
+#romance4f {
+    background-size: cover;
+    background-position: 50% 20%;
+    background-image: url(img/Titanic.jpg);
+}
+
+#romance1s {
+    background-size: cover;
+    background-position: 50% 25%;
+    background-image: url(img/bridgerton.jpg);
+}
+
+#romance2s {
+    background-size: cover;
+    background-position: 40% 58%;
+    background-image: url(img/heartstopper.jpg);
+}
+
+#romance3s {
+    background-size: cover;
+    background-position: 0% 35%;
+    background-image: url(img/ModernLove.webp);
+}
+
+#romance4s {
+    background-size: cover;
+    background-position: 50% 10%;
+    background-image: url(img/EmilyInParis.webp);
+}
+
+#terror1f {
+    background-size: cover;
+    background-position: 50% 30%;
+    background-image: url(img/Corra.jpg);
+}
+
+#terror2f {
+    background-size: cover;
+    background-position: 40% 40%;
+    background-image: url(img/ItACoisa.jpg);
+}
+
+#terror3f {
+    background-size: cover;
+    background-position: 0% 0%;
+    background-image: url(img/AMorteDoDemonio.jpg);
+}
+
+#terror4f {
+    background-size: 75%;
+    background-position: 50% 30%;
+    background-image: url(img/JogosMortais.jpg);
+}
+
+#terror1s {
+    background-size: cover;
+    background-position: 50% 30%;
+    background-image: url(img/Supernatural.jpg);
+}
+
+#terror2s {
+    background-size: cover;
+    background-position: 40% 20%;
+    background-image: url(img/TheOriginals.webp);
+}
+
+#terror3s {
+    background-size: cover;
+    background-position: 0% 58%;
+    background-image: url(img/TheWalkingDead.webp);
+}
+
+#terror4s {
+    background-size: cover;
+    background-position: 50% 10%;
+    background-image: url(img/Hannibal.jpg);
+}
+
+hr {
+    position: fixed;
+    border-radius: 70px;
+    background-color: rgb(255, 187, 0);
+    border-style: none;
+    height: 450px;
+    width: 4px;
+    float: right;
+    position: relative;
+    right: 260px;
+    bottom: 550px;
+}
+
+#card1 {
+    position: relative;
+    bottom: 400px;
+    left: 725px;
+    width: 200px;
+    height: 100px;
+}
+
+#card1:hover {
+    position: relative;
+    bottom: 400px;
+    left: 725px;
+}
+
+.card {
+    font-size: 24px;
+    font-family: "Ahinto";
+    cursor: pointer;
+    margin-top: 40px;
+    text-align: center;
+    color: orange;
+    background-image: linear-gradient(to bottom, rgb(32, 32, 32), rgb(39, 39, 39));
+    border: 2px solid #131010;
+    border-radius: 20px;
+    position: relative;
+    bottom: 400px;
+    left: 725px;
+    width: 200px;
+    height: 100px;
+}
+
+.card:hover {
+    background-image: radial-gradient(rgb(255, 251, 0), orange);
+    color: #131010;
+    position: relative;
+    bottom: 400px;
+    left: 725px;
+}
+
+.card h2 {
+    margin-top: 10px;
+    font-family: "Ahinto";
+}
+
+::-webkit-scrollbar {
+    background-color: #252525;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #FFEA5F;
+}
